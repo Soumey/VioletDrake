@@ -1,0 +1,54 @@
+.logout
+{
+    margin-bottom:30px;
+}
+
+.categoryContainer table
+{
+    margin-top:60px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+}
+
+.categoryContainer thead
+{
+    background-color: #5b1179;
+    color:#fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.categoryContainer tbody tr
+{
+    height:6em;
+}
+
+.categoryContainer thead th,
+.categoryContainer tbody td
+{
+    padding:5px;
+}
+
+.categoriesRow{
+    margin-left: 3%;
+    margin-right:3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.category
+{
+    color:white
+}
+.category:hover{
+    background-color: #6f1692;
+}
+
+.loginContainer{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}

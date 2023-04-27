@@ -1,0 +1,175 @@
+.header{
+    height:55px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+    
+}
+
+.leftSection{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+.logo{
+    height:40px;
+    margin-top:10px;
+    margin-left: 30px;
+}
+.logoText{
+    margin-top: 12px;
+    text-size-adjust: 20px;
+    text-shadow: 1px 1px;
+    margin-left: 10px;
+    color: purple;
+}
+
+#mid {
+    display: flex;
+  }
+#right
+{
+    display: flex;
+}
+  
+  @media only screen and (max-width: 700px) {
+    #mid {
+      display: none;
+    }
+    #right
+    {
+        display: none;
+    }
+    #left
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+  }
+.midSection{
+    flex:1;
+    width: 60%;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+
+.searchBar{
+    flex:1;
+    height: 36px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(194, 194, 194);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05) ;
+    width: 0;
+}
+.searchBar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+.searchIcon{
+    height: 24px;
+    margin-top: 4px;
+    margin-left:10px;
+
+}
+
+.searchBtn {
+    height: 36px;
+    width: 48px;
+    background-color:#5b1179;
+    border-width: 1px;
+    border-style:solid;
+    border-color:#6f1692;
+    margin-left: -1px;
+    margin-right: 10px;
+
+}
+.rightSection{
+    width:250px;
+    margin-right: 20px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 0;
+    flex-shrink: 0;
+}
+
+.loginBtn
+{
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0;
+  color: #fff;
+  
+  margin-right: 10px;
+  position: relative;
+  top: 1px;  
+  text-decoration: none;
+  background-color: #5b1179;
+  cursor:pointer;
+}
+
+
+.loginBtn:hover
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.loginBtn:hover
+{
+    background-color: #6f1692; 
+}
+
+
+.registerBtn
+{
+  padding: 7px 10px;
+  font-size: 0.875rem;
+  line-height: normal;
+  border-radius: 0.2rem;
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;  
+  text-decoration: none;
+  background-color: #5b1179;
+  cursor:pointer;
+  margin-right: 0;
+}
+
+.registerBtn:hover
+{
+    text-decoration: none;
+    color:#fff;
+}
+
+.registerBtn:hover
+{
+    background-color: #6f1692; 
+}

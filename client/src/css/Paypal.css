@@ -1,0 +1,10 @@
+.payPalMessage 
+{
+    width: 800px;
+    margin: 50px auto;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #F5F5DC;
+    box-shadow: 10px 10px 5px #888888;
+}
